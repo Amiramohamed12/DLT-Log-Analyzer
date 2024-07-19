@@ -1,6 +1,6 @@
 #!/bin/bash
-LogParsing() {  
 
+LogParsing() {  
 logfile=$1
 echo "-----Log Parsing-----"
 while IFS= read -r line; do
@@ -36,10 +36,10 @@ while IFS= read -r line; do
             fi
         done
 done < $1
+
     for filter in "${filter_levels[@]}"; do
             if [[ ! "${matched_levels[$filter]}" ]]; then
                 echo "No $filter found"
-    
             fi
         done
 Options "$1"
