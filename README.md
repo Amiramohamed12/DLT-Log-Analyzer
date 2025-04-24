@@ -19,7 +19,7 @@ A Bash-based tool for analyzing and interacting with log files. It supports pars
 The script assumes each log entry follows this structure:
 [YYYY-MM-DD HH:MM:SS] <Component> <LOG_LEVEL> Message...
 Example:
-[2024-04-24 18:23:59] engine ERROR Engine failure detected
+[2024-07-24 18:23:59] engine ERROR Engine failure detected
 
 ## 🚀 How to Use
 
